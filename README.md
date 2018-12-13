@@ -50,3 +50,5 @@ dos2unix *_20000iter.txt
 paste accuracy_20000iter.txt sensitivity_20000iter.txt specificity_20000iter > accu_sens_spec_20000iter.txt
 ```
 Check the performances of the models in the last .txt file. 
+## Test dataset evaluation. 
+When using test dataset other than the one in cross validation, edit the CNNCrossValidation.py, go to line 79, delete the "#" before the line and change the string after "=" to the path of the directory that contains the matrices that you want to use as the data set. 
