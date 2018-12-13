@@ -1,4 +1,4 @@
-# CNN for the detection of CNV
+DL-CNV: a tool uses CNN for the detection of CNV
 ## Generating matrix. 
 Run
 ```bash
